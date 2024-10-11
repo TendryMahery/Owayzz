@@ -10,12 +10,14 @@ const Home = () => {
     return(
         <div id="home">
             <section className="bg-[url('../public/assets/sary/foret.jpg')] bg-no-repeat bg-cover h-screen mix-blend-overlay text-white">
-                <div className="sm:pt-40 pt-28 sm:px-40 px-2">
+                <div className="md:pt-40 pt-28 md:px-40 px-2">
                     <div className="text-center items-center">
                         <div>
                             <div className="">
-                                <div className="md:flex md:justify-center space-x-2">
-                                    <input type="text" class="mb-2 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-lg md:w-80 p-2" placeholder="recherche" required />
+                                <div className="md:flex md:justify-center md:space-x-2">
+                                    <div className="flex justify-center">
+                                        <input type="text" class="mb-2 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block md:w-lg w-auto md:w-80 p-2" placeholder="recherche" required />
+                                    </div>
                                     <button className="bg-blue-500 rounded px-2 text-sm md:px-6 text-white hover:bg-blue-400">recherche</button>
                                 </div>
                                 <div className="pb-10" data-aos="flip-up" >

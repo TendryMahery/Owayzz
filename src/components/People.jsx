@@ -22,8 +22,8 @@ const People = () =>{
                                     <div>
                                         <img src="../assets/sary/Fatigue-.jpg" className="object-cover h-60 w-80" alt=""/>
                                     </div>
-                                    <div className="bg-blue-500 h-60 w-80 text-center items-center flex flex-col">
-                                        <h1 className="font-bold text-2xl text-white mt-28">Trust</h1>
+                                    <div className="bg-blue-500 h-60 w-80 md:text-center items-center flex flex-col">
+                                        <h1 className="font-bold md:text-2xl text-white mt-28">Trust</h1>
                                     </div>
                                 </div>
                             </div>
@@ -32,8 +32,8 @@ const People = () =>{
                                     <div>
                                         <img src="../assets/sary/Fatigue-.jpg" className="object-cover h-60 w-80" alt=""/>
                                     </div>
-                                    <div className="bg-orange-500 h-60 w-80 text-center items-center">
-                                        <h1 className="font-bold text-lg md:text-2xl text-white mt-28">Transparency</h1>
+                                    <div className="bg-orange-500 h-60 w-80 md:text-center items-center">
+                                        <h1 className="font-bold md:text-2xl text-white mt-28">Transparency</h1>
                                     </div>
                                 </div>
                             </div>
@@ -42,8 +42,8 @@ const People = () =>{
                                     <div>
                                         <img src="../assets/sary/Fatigue-.jpg" className="object-cover h-60 w-80" alt=""/>
                                     </div>
-                                    <div className="bg-white h-60 w-80 text-center items-center">
-                                        <h1 className="font-bold text-2xl text-black mt-28">Pratical</h1>
+                                    <div className="bg-white h-60 w-80 md:text-center items-center">
+                                        <h1 className="font-bold md:text-2xl text-black mt-28">Pratical</h1>
                                     </div>
                                 </div>
                             </div>

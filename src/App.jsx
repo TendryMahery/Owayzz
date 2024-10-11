@@ -14,16 +14,15 @@ function App() {
     <div className="App">
       
       <BrowserRouter>
-        <Navbar/>
-          <Route path="/" exact> 
+      <Route path="/" exact>
+            <Navbar/>
             <Home/>
             <About />
             <Service />
             <Team />
             <People/>
             <Contact/>
-          </Route>
-     
+      </Route>
       </BrowserRouter>
     </div>
    

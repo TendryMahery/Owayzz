@@ -10,7 +10,7 @@ const About = () => {
                         <div className="text-4xl">___</div>
                     </div>
 
-                    <div className="sm:pt-10 pt-3 md:grid md:grid-cols-2">
+                    <div className="sm:pt-10 pt-3 grid md:grid-cols-2">
                         <div className="sm:w-96 mb-6  sm:h-96 w-60 h-80 bg-purple-500 p-6" data-aos="fade-right">
                             <img src="../assets/R3.png" alt=""/>
                             <p className="sm:p-6 text-white text-sm">Owayzz is a tourism social network serving as both a portfolio set and marketplace for tourism professionals. It also allows travel lovers to find the right deals and to share their experiences</p>
@@ -18,9 +18,9 @@ const About = () => {
                                 <button className="bg-green-500 px-8 py-2 rounded hover:scale-105 transition duration-300 text-white">About</button>
                             </div>
                         </div>
-                        <div className="grid grid-rows-2" data-aos="fade-left">
+                        <div className="grid md:grid-rows-2" data-aos="fade-left">
                             <div>
-                                <div className="text-white">
+                                <div className="text-white md:row-span-1">
                                     <div className="flex space-x-8">
                                         <FaAddressBook size={40}/>
                                         <h1 className="text-2xl font-semibold">Mission</h1>
@@ -29,7 +29,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div>
-                                <div className="text-white">
+                                <div className="text-white md:row-span-1">
                                     <div className="flex space-x-8">
                                         <FaAddressBook size={40}/>
                                         <h1 className="text-2xl font-semibold">Goal</h1>

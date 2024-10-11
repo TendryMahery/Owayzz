@@ -20,11 +20,11 @@ const Navbar = () => {
     })
     return(
         <div>
-            <nav className="fixed w-full  md:px-40 text-white ">
+            <nav className="fixed w-auto  md:px-40 text-white ">
                 <div className="flex  justify-between items-center p-4">
                     <div className="logo flex space-x-2">
                         <button className=" bg-orange-600 p-2 font-bold text-xl"><i className="fab fa-creative-commons-nd"></i> </button>
-                        <h1 className="text-2xl font-bold">Awayzz</h1>
+                        <h1 className="text-2xl font-bold">Owayzz</h1>
                     </div>
                     <div className="hidden md:flex space-x-4 rounded-2xl font-semibold">
                        <div className="hover:border-b-2 text-gray-600 cursor-pointer">
@@ -88,11 +88,11 @@ const Navbar = () => {
                                 </div>
                             </div>
                             <div className="mb-16 menu flex flex-col sm:space-y-10 space-y-6 p-4 sm:text-2xl font-bold text-white text-center">
-                                <Link to="home" smooth duration={500} className="navlink cursor-pointer hover:border-b-4 border-indigo-500 transition-all duration-100">Home</Link>
-                                <Link to="about" smooth duration={500} className="navlink cursor-pointer hover:border-b-4 border-indigo-500 transition-all duration-100">About us</Link>
-                                <Link to="service" smooth duration={500} className="navlink cursor-pointer hover:border-b-4 border-indigo-500 transition-all duration-100">Services</Link>
-                                <Link to="people" smooth duration={500} className="navlink cursor-pointer hover:border-b-4 border-indigo-500 transition-all duration-100">Testimonials</Link>
-                                <Link to="contact" smooth duration={500} className="navlink cursor-pointer hover:border-b-4 border-indigo-500 transition-all duration-100">Contact</Link>
+                                <Link  to="home" smooth duration={500} className="navlink cursor-pointer hover:border-b-4 border-indigo-500 transition-all duration-100">Home</Link>
+                                <Link  to="about" smooth duration={500} className="navlink cursor-pointer hover:border-b-4 border-indigo-500 transition-all duration-100">About us</Link>
+                                <Link  to="service" smooth duration={500} className="navlink cursor-pointer hover:border-b-4 border-indigo-500 transition-all duration-100">Services</Link>
+                                <Link  to="people" smooth duration={500} className="navlink cursor-pointer hover:border-b-4 border-indigo-500 transition-all duration-100">Testimonials</Link>
+                                <Link  to="contact" smooth duration={500} className="navlink cursor-pointer hover:border-b-4 border-indigo-500 transition-all duration-100">Contact</Link>
                             </div>
                             <div>
                                 <div className="flex justify-around">
